@@ -433,7 +433,7 @@ void Thermostat:: runAuto(){
 // https://github.com/WereCatf/PCF8574_ESP                                                                               //
 // ********************************************************************************************************************* //
 
-#include <PCF8574_esp.h>
+#include <pcf8574_esp.h>
 
 // ======================================== T E R M O S T A T . E X P A N D E R ======================================== //
   class ThermostatExpander : public PCF857x {
